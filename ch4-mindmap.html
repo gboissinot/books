@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise Architect Mindmap</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #mindmap {
+            width: 100%;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enterprise Architect - Vue d'ensemble</h1>
+        <div id="mindmap">
+            <pre class="mermaid">
+mindmap
+  root((Enterprise Architect))
+    [Profil Professionnel]
+        [Compétences principales]
+            [Compréhension environnement IT]
+                IT externe
+                Technologies disponibles
+                Produits du marché
+            [Communication business]
+                Dialogue avec dirigeants
+                Compréhension des enjeux
+                Facilitation
+            [Vision globale]
+                Approche holistique
+                Pensée systémique
+                Prise de décision
+        [Position dans l'organisation]
+            [Pratique EA]
+                Utilisation artefacts EA
+                Comités gouvernance
+                Processus formels
+            [Consultant interne]
+                Sans autorité directe
+                Influence par expertise
+                Conseiller stratégique
+    [Activités quotidiennes]
+        [Phase d'idéation]
+            Réseau décideurs
+            Analyse des besoins
+            Formulation initiatives
+        [Phase de conception]
+            Pré-planification
+            Évaluation faisabilité
+            Communication sponsors
+        [Phase de planification]
+            Discussion parties prenantes
+            Élaboration solutions
+            Validation plans
+        [Phase d'exécution]
+            Supervision architecturale
+            Contrôle conformité
+            Support gouvernance
+    [Double casquette]
+        [Expert Technologique]
+            [Expertise]
+                Connaissances IT
+                Solutions techniques
+                Standards & normes
+            [Outils]
+                Artefacts techniques
+                Documentation
+                Modèles référence
+            [Approche]
+                Rigueur ingénieur
+                Analyse technique
+                Best practices
+        [Agent du Changement]
+            [Compétences]
+                Communication
+                Négociation
+                Facilitation
+            [Outils]
+                Artefacts business
+                Présentations
+                Visualisations
+            [Approche]
+                Diplomatie
+                Consensus
+                Gestion politique
+    [Principes fondamentaux]
+        Accord > Perfection technique
+        Planning by talking
+        Approche collaborative
+        Vision transverse
+        Influence sans autorité
+            </pre>
+        </div>
+    </div>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            mindmap: {
+                padding: 20,
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>
