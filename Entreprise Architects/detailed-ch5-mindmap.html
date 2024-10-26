@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Enterprise Architects in Context - Mindmap</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        #mindmap {
+            width: 100%;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enterprise Architects in Context - Vue d'ensemble</h1>
+        <div id="mindmap">
+            <pre class="mermaid">
+mindmap
+  root((Architectes<br/>en Contexte))
+    [Position Organisationnelle]
+        [Fonction Architecture]
+            Rattachement IT
+            4-5% effectifs IT
+            Services organisation-wide
+            Reporting aux exécutifs IT
+        [Interactions]
+            Fonction delivery
+            Fonction support
+            Comités gouvernance
+    [Écosystème Organisationnel]
+        [Position Unique]
+            Entre Business et IT
+            Niveau intermédiaire
+            Rôle de traduction
+        [Relations]
+            [Business Leaders]
+                Dirigeants
+                Managers
+                Spécialistes
+            [IT Leaders]
+                Exécutifs
+                Managers
+                Experts techniques
+    [Exécution Stratégie]
+        [Rôle]
+            Pont stratégie-exécution
+            Traduction besoins
+            Alignement initiatives
+        [Interactions]
+            Avec dirigeants business
+            Avec équipes projet
+            Avec parties prenantes
+    [Valeur pour Organisation]
+        [Propositions de Valeur]
+            Décisions robustes
+            Capacité traduction
+            Alignement stratégique
+        [Bénéfices]
+            Meilleure planification
+            Cohérence décisions
+            Transformation efficace
+        [Coûts]
+            Salaires élevés
+            Formation continue
+            Difficulté recrutement
+    [Clarifications du Rôle]
+        [Ce qu'ils ne sont PAS]
+            [Non Stratèges]
+                Pas de développement stratégie
+                Focus sur réalisation
+            [Non Technologues Purs]
+                Au-delà de la technique
+                Rôle transformation
+            [Non Transformateurs Universels]
+                Focus digital
+                Spécialistes IT
+            [Non Architectes Système]
+                Vision plus large
+                Impact organisationnel
+            [Non Omniscients]
+                Collaboration experts
+                Facilitation plutôt qu'expertise
+        [Ce qu'ils SONT]
+            [Facilitateurs]
+                Communication active
+                Construction consensus
+            [Agents Changement]
+                Politique constructive
+                Gestion transformation
+            [Experts Hybrides]
+                Technique et Business
+                Vision globale
+    </pre>
+        </div>
+    </div>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            mindmap: {
+                padding: 20,
+                curve: 'basis'
+            }
+        });
+    </script>
+</body>
+</html>
